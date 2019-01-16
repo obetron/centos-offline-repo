@@ -1,7 +1,7 @@
 # centos-offline-repo
-  CentOS 7 ve 7.5 surumlerinde kaynaklarin kisitli oldugu durumlarda repository uzerinden kurulum yapmak gerektiginde eger online repository'den yararlanilamiyorsa offline olarak centos image dosyasindan faydalanilarak local repository olusturmak mumkun oluyor. 
+  CentOS 7 ve 7.5 surumlerinde kaynaklarin kisitli oldugu durumlarda repository uzerinden kurulum yapmak gerektiginde eger online repository'den yararlanilamiyorsa offline olarak centos image dosyasindan faydalanilarak local repository olusturmak mumkundur. 
   
-  1. Isletim sistemine ait veya ayni versiyona sahip image dosyasini indirdikten sonra centos isletim sistemine kopyaliyoruz. Veya direk isletim sistemine USB Bellek baglayabiliyorsak asagidaki sekilde bir komut calistirarak image dosyasini isletim sistemine kopyaliyoruz.
+  1. Isletim sistemine ait veya ayni versiyona sahip image dosyasi indirildikten sonra centos isletim sistemi icerisinde bir dizine kopyalanir veya direk isletim sistemine USB Bellek baglanabiliyorsa asagidaki sekilde bir komut calistirarak image dosyasi isletim sistemine kopyalanir.
   
       `cp /media/USB_bellek/centos7.iso /opt/.`
  
